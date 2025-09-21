@@ -1,0 +1,342 @@
+    1  env
+    2  ssh -i ~/.ssh/id_rsa ec2user@linux.itcareerhub.com
+    3  ssh -i ~/.ssh/id_rsa ec2-user@linux.itcareerhub.de
+    4  mkdir /home/animals
+    5  mkdir/home
+    6  mkdir ~/animals
+    7  mkdir ~/animals/{dogs, cats,fish}
+    8  touch /home/animals/dogs/pluto
+    9  touch /home
+   10  touch /animals/dogs/pluto
+   11  cd
+   12  /home
+   13  [200~mkdir /home/animals
+   14  mkdir /home/animals
+   15  cd /home
+   16  cd
+   17  cd
+   18  whoami
+   19  history
+   20  ls
+   21  cd /home/animals
+   22  /home# cd /home/animals
+   23  cd /home#
+   24  cd /animals
+   25  /home# cd /animals
+   26  /home# mkdir /animals
+   27  mkdir /home# /animals
+   28  mkdir animals
+   29  cd /home
+   30  [200~mkdir ~/animal
+   31  mkdir ~/animal
+   32  mkdir -p animals/dogs animals/cats animals/fish
+   33  ls animals
+   34  touch animals/dogs/pluto
+   35  touch animals/cats/garfield
+   36  touch animals/fish/nemo
+   37  ls animals/dogs
+   38  touch /tmp/adam
+   39  mkdir -p /home/humans
+   40  mkdir ~humans
+   41  cp /tmp/adam /home/humans
+   42  cp /tmp/adam/humans
+   43  ls /home/humans
+   44  ls /humans
+   45  mkdir -p ~humans
+   46  cp /tmp/adam/humans
+   47  --help
+   48  cp --help
+   49  touch /tmp/adam
+   50  mkdir -p /home/humans
+   51  mkdir -p /humans
+   52  clear
+   53  history
+   54  ls animals/dogs
+   55  ls animals/cats
+   56  ls animals/fish
+   57  touch /tmp/adam
+   58  ls /tmp | grep adam
+   59  sudo mkdir -p /home/humans
+   60  sudo cp /tmp/adam /home/humans/
+   61  mkdir -p /home/humans
+   62  mkdir /home /humans
+   63  mkdir ~home
+   64  mkdir /home /humans
+   65  mkdir -p /home/humans
+   66  mkdir /home/animals
+   67  mkdir /home /animals
+   68  /home#
+   69  home
+   70  cd
+   71  exit
+   72  history
+   73  ls home
+   74  ls /home
+   75  /usr /exit
+   76  /user /home
+   77  /home /animals
+   78  cd
+   79  env
+   80  echo $VAR
+   81  :q
+   82  q
+   83   ;q
+   84  q
+   85  q
+   86  :q
+   87  exit
+   88  cat .ssh 
+   89  cat .ssh/ id_ed25510.pub
+   90  ssh ec2-user@linux.itcareerhub.de
+   91  mkdir test123
+   92  cd test123
+   93  echo "# test123" >> README.md
+   94  git init
+   95  git add README.md
+   96  git status
+   97  git branch -M kristine
+   98  git branch -M main
+   99  git remote add origin git@github.com:Kkalinina1996/test123.git
+  100  git remote -v
+  101  git push -u origin main
+  102  git comit -m "first comit"
+  103  git push -u origin main
+  104  cd test123
+  105  ls -la
+  106  git push -u origin main
+  107  git add README.md
+  108  cd
+  109  rm -rf .git
+  110  cd test123
+  111  git init
+  112  ls -la
+  113  echo "# test123" >> README.md
+  114  git add README.md
+  115  git commit -m "first commit"
+  116   git config --global user.email "kviljeva@gmail.com"
+  117  git branch -M main
+  118  git remote add origin git@github.com:Kkalinina1996/test123.git
+  119  git push -u origin main
+  120  git status
+  121  git add test.txt
+  122  git status
+  123  git push
+  124  cd
+  125  mkdir 2907
+  126  cd 2907
+  127  ls -l
+  128  echo "# 29.07" >> README.md
+  129  ls - l
+  130  git@github.com:Kkalinina1996/29.07.git
+  131  git remote add origin git@github.com:Kkalinina1996/29.07.git
+  132  ~/.ssh/id_rsa.pub
+  133  - cat ~/.ssh/id_ed25519.pub
+  134  - cat ~/.ssh/id_rsa.pub
+  135  ssh
+  136  ssh -T git@github.com
+  137  echo "$SSH_AUTH_SOCK"
+  138  rint out the SSH_AUTH_SOCK variable
+  139  ssh-add -L
+  140  ls -al ~/.ssh
+  141  ssh-keygen -t ed25519 -C "kviljeva@gmail.com"
+  142  ssh -T git@github.com
+  143  ssh-keygen -p -f ~/.ssh/id_ed25519
+  144  cd
+  145  mkdir 29.07
+  146  cd
+  147  cd 29.07
+  148  echo "# 29.07" >> README.md
+  149  git init
+  150  git switch ma
+  151  test
+  152  git add README.md
+  153  switch main 
+  154  git switch main
+  155  ls -l
+  156  git log
+  157  git commit -m "first commit"
+  158  git log
+  159  git switch main
+  160  git branch -M main
+  161  git marge origin test
+  162  git log
+  163  cd
+  164  git clone git@github.com:Kkalinina1996/git-PR.git
+  165  cd git-PR
+  166  ls -ls
+  167  git checkout -b issue_44
+  168  ps
+  169  ps -ef
+  170  ps -aux
+  171  ps >> readme
+  172  git add readme
+  173  git commit -m "add readme"
+  174  cat readme
+  175  git branch
+  176  cd
+  177  mkdir git_intro
+  178  cd git_intro
+  179  git init
+  180  echo "# git_intro" > README.md
+  181  git add .
+  182  git commit -m "Initial commit"
+  183  git branch -M main
+  184  git remote add origin git@github.com:Kkalinina1996/-git_intro.git
+  185  git push -u origin main
+  186  cd
+  187  mkdir git-merge-test
+  188  git init .
+  189  ls -la
+  190  echo "this is some content to mess with" > merge.txt
+  191  ls -la
+  192  git status
+  193  git commit -m"we are commiting the inital content"
+  194  git add merge.txt
+  195  git branch -M main
+  196  git checkout -b new_branch_to_merge_later
+  197  la -ls
+  198  ls -la
+  199  echo "totally different content to merge later" > merge.txt
+  200  exit
+  201  gh auth logout
+  202  ls -la
+  203  logout
+  204  auth logout
+  205  gh auth logout
+  206  whoami
+  207  pwd
+  208  ls -la
+  209  git checkout main
+  210  git switch main
+  211  t (main|MERGING)
+  212  git merge --continue
+  213  git merge
+  214  git switch main
+  215  git checkout main
+  216  exit
+  217  git checkout main
+  218  git branch
+  219  git checkout master
+  220  git switch master
+  221  git branch -d new_branch_to_merge_later
+  222  git branch -D new_branch_to_merge_later
+  223  git mergetool
+  224  git chekout
+  225  git checkout
+  226  git add .
+  227  ls -la
+  228  cd
+  229  ssh -id
+  230  .less
+  231  history delite
+  232  git commit -m "Initial commit on new_branch_to_merge_later"
+  233  rm -f C:/Users/kalinini/.git/index.lock
+  234  git commit -m "Initial commit on new_branch_to_merge_later"
+  235  git status
+  236  "git commit -a
+  237  git branch -m main
+  238  git push -u origin main
+  239  git push origin --delete new_branch_to_merge_later
+  240  ls -la
+  241  rm -rf .git
+  242  mkdir ~/my_project
+  243  cd ~/my_project
+  244  git init
+  245  ls -la
+  246  git branch -M main
+  247  kalinini@DESKTOP-85DK0ND MINGW64 ~/my_project (main)
+  248  git push -u origin main
+  249  git remote
+  250  exit
+  251  https://github.com/ВАШ_НИК/git-branch.git
+  252  # Создаём папку с таким же именем
+  253  mkdir git-branch
+  254  cd git-branch
+  255  # Инициализируем локальный репозиторий
+  256  git init
+  257  git remote add origin https://github.com/ВАШ_НИК/git-branch.git
+  258  git remote -v
+  259  git checkout -b gitignore
+  260  git branch
+  261  git checkout -b gitignore
+  262  curl -o .gitignore https://raw.githubusercontent.com/aliaskov/bashscripts/master/.gitignore
+  263  cat .gitignore
+  264  git add .gitignore
+  265  git commit -m "Add .gitignore file"
+  266  git push origin gitignore
+  267  git push origin gitignore
+  268  git fetch origin
+  269  git branch -r
+  270  echo "# git-branch" >> README.md
+  271  git init
+  272  git add README.md
+  273  git commit -m "first commit"
+  274  git branch -M main
+  275  git remote add origin git@github.com:Kkalinina1996/git-branch.git
+  276  git push -u origin main
+  277  delete
+  278  clear
+  279  git checkout -b gitignore
+  280  curl -o .gitignore https://raw.githubusercontent.com/aliaskov/bashscripts/master/.gitignore
+  281  git add .gitignore
+  282  git commit -m "Add .gitignore file"
+  283  git branch
+  284  curl -o .gitignore https://raw.githubusercontent.com/aliaskov/bashscripts/master/.gitignore
+  285  ls -la
+  286  git add .gitignore
+  287  # Делаем коммит
+  288  git commit -m "Add .gitignore file"
+  289  # Отправляем ветку в GitHub
+  290  git push origin gitignore
+  291  git log --online
+  292  git log --oneline
+  293  git remote -v
+  294  git remote remove origin
+  295  git remote add origin https://github.com/Kkalinina1996/git-branch.git
+  296  git push -u origin gitignore
+  297  ssh
+  298  ssh-keygen -t ed25519 -C "kviljeva@gmail.com"
+  299  ls -la
+  300  eval "$(ssh-agent -s)"
+  301  ssh-add ~/.ssh/id_ed25519
+  302  cat ~/.ssh/id_ed25519.pub
+  303  ssh -T git@github.com
+  304  git remote set-url origin git@github.com:Kkalinina1996/git-branch.git
+  305  git remote -v
+  306  git push -u origin gitignore
+  307  clear
+  308  cd
+  309  ssh ec2-user@linux.itcareerhub.de
+  310  ls ~/.ssh
+  311  ssh -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+  312  cat ~/.ssh/id_rsa.pub
+  313  ls ~/.ssh
+  314  cat ~/.ssh/id_ed25519.pub
+  315  ssh -v
+  316  ssh -v -i ~/.ssh/id_ed25519 ec2-user@linux.itcareerhub.de
+  317  ls ~/.ssh/*.pub
+  318  clear
+  319  git@github.com:Kkalinina1996/git-feature-merge.git
+  320  echo "# git-feature-merge" >> README.md
+  321  git init
+  322  git add README.md
+  323  git commit -m "first commit"
+  324  git branch -M main
+  325  git remote add origin git@github.com:Kkalinina1996/git-feature-merge.git
+  326  git push -u origin main
+  327  echo "*.log" >> .gitignore
+  328  git add .gitignore
+  329  git commit -m "Add .gitignore file"
+  330  git push origin main
+  331  git checkout -b feature
+  332  echo "## New section in README" >> README.md
+  333  echo "*.tmp" >> .gitignore
+  334  git add README.md .gitignore
+  335  git commit -m "Update README.md and .gitignore"
+  336  git push -u origin feature
+  337  git commit --amend -m "Update README.md and .gitignore ammend"
+  338  git push -f origin feature
+  339  git checkout main
+  340  git merge feature
+  341  git push origin main
+  342  history > history.txt
