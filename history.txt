@@ -340,3 +340,8 @@
   340  git merge feature
   341  git push origin main
   342  history > history.txt
+  343  git add history.txt
+  344  git commit -m "Add history.txt with command history"
+  345  git push origin main
+  346  # 1. Сохраняем историю команд в файл
+  347  history > history.txt
